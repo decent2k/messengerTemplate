@@ -1,0 +1,161 @@
+.navbar-layout {
+  position: fixed;
+  background-color: rgb(40, 40, 40);
+  left: 0;
+  right: 0;
+  height: 40px;
+  z-index: 2;
+  border-bottom: solid;
+  border-bottom-color: rgb(60, 60, 60);
+  border-bottom-width: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+}
+
+.left-section-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  padding-left: 15px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  transition: opacity, 0.2s;
+  padding-right: 15px;
+}
+
+.btn-link:hover {
+  opacity: 0.5;
+}
+
+.search {
+  height: 22px;
+  width: 350px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: none;
+  border-width: 0;
+  padding-left: 5px;
+  color: white;
+  border: none;
+  font-family: Noto Sans, Arial;
+  background-color: rgb(71, 71, 71);
+  box-shadow: 0px 1px 3px rgb(81, 81, 81);
+  transition: box-shadow, 0.5s;
+  outline: none;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: white;
+}
+
+.search-bar-content {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity, 0.2s;
+}
+
+.search-img {
+  width: 16px;
+}
+
+.search:hover {
+  box-shadow: 0px 1px 4.5px rgb(132, 131, 131);
+}
+
+.search-button:hover {
+  opacity: 0.6;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity, 0.25s;
+}
+
+.profile-info,
+.profile-see-more {
+  display: flex;
+  align-items: center;
+}
+
+.profile-name {
+  padding-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu-image {
+  width: 22px;
+  height: 22px;
+  align-items: center;
+}
+
+.see-more-profile {
+  background-color: transparent;
+  border: none;
+  padding-top: 6.5px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.profile-see-more {
+  height: 20px;
+  transition: background-color, 0.25s;
+}
+
+.profile-name {
+  opacity: 1;
+  transition: opacity, 0.25s;
+}
+
+.profile-name:hover,
+.see-more-profile:hover,
+.profile-picture:hover {
+  opacity: 0.5;
+}
+
+.profile-see-more:hover {
+  background-color: rgb(55, 55, 55);
+  height: 22px;
+  border-radius: 4px;
+}
